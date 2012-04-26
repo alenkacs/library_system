@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                  assembly="WindowsFormsApplication1"
+                  namespace="WindowsFormsApplication1.Domain">
+
+  <class name="User" table="users">
+    <id name="Id">
+      <generator class="native" />
+    </id>
+
+    <property name="Name" />
+    <property name="Surname" />
+    <property name="Patronymic" />
+    <property name="Role_id" />
+    <property name="Login" />
+    <property name="Pass" />
+  </class>
+
+</hibernate-mapping>
